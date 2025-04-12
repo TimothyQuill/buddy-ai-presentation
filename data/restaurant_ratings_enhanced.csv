@@ -1,0 +1,501 @@
+customer_id,restaurant_id,dish_name,dish_description,rating,timestamp,cuisine_type,dietary_tags,tip_amount,day_of_week
+CUST1029,REST6,Butter Chicken,Creamy tomato curry with grilled chicken,3,2024-04-07 11:15:14,Indian,"['Contains Dairy', 'Spicy']",2.35,Sunday
+CUST1022,REST4,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,1,2024-04-07 21:34:32,Korean,"['Spicy', 'Contains Gluten']",15.05,Sunday
+CUST1015,REST2,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,4,2024-04-08 14:14:45,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",6.58,Monday
+CUST1028,REST6,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,4,2024-04-08 19:44:19,Middle Eastern,"['Vegan', 'Contains Gluten']",4.56,Monday
+CUST1024,REST6,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",5,2024-04-09 00:40:36,Japanese,"['Contains Gluten', 'Contains Pork']",0.85,Tuesday
+CUST1009,REST8,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,4,2024-04-09 00:49:38,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",0.85,Tuesday
+CUST1012,REST5,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",4,2024-04-10 08:11:46,Italian,"['Contains Gluten', 'Contains Dairy']",0.3,Wednesday
+CUST1014,REST2,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,3,2024-04-11 14:35:57,Modern Australian,"['Seafood', 'Gluten-Free']",10.06,Thursday
+CUST1035,REST4,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",4,2024-04-11 17:33:17,Mexican,"['Seafood', 'Contains Gluten']",4.6,Thursday
+CUST1011,REST9,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,5,2024-04-13 08:29:22,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",6.16,Saturday
+CUST1041,REST8,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,5,2024-04-13 23:24:45,Middle Eastern,['Contains Gluten'],0.1,Saturday
+CUST1009,REST8,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,3,2024-04-14 15:22:37,Middle Eastern,['Contains Gluten'],17.52,Sunday
+CUST1035,REST3,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,1,2024-04-16 10:38:47,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",8.93,Tuesday
+CUST1000,REST5,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,2,2024-04-17 17:37:41,Middle Eastern,"['Vegan', 'Contains Gluten']",1.19,Wednesday
+CUST1005,REST7,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",2,2024-04-18 08:13:25,Mexican,"['Seafood', 'Contains Gluten']",1.0,Thursday
+CUST1001,REST7,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,4,2024-04-18 17:06:36,Korean,"['Spicy', 'Contains Gluten']",1.01,Thursday
+CUST1014,REST7,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",1,2024-04-19 20:43:12,Italian,"['Contains Gluten', 'Contains Dairy']",1.81,Friday
+CUST1041,REST1,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",4,2024-04-20 04:59:11,Mexican,"['Seafood', 'Contains Gluten']",3.72,Saturday
+CUST1039,REST9,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,5,2024-04-20 11:02:58,Korean,"['Spicy', 'Contains Gluten']",2.83,Saturday
+CUST1029,REST7,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",2,2024-04-20 21:42:00,Italian,"['Contains Gluten', 'Contains Dairy']",1.72,Saturday
+CUST1023,REST3,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,5,2024-04-21 00:00:44,Indonesian,"['Spicy', 'Gluten-Free']",4.73,Sunday
+CUST1037,REST2,Duck à l’Orange,Roast duck with a tangy orange sauce,5,2024-04-22 06:06:28,French,['Contains Gluten'],0.75,Monday
+CUST1028,REST4,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",3,2024-04-22 07:06:38,Plant-based,"['Vegan', 'Gluten-Free']",1.73,Monday
+CUST1002,REST10,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,2,2024-04-22 17:13:14,Middle Eastern,['Contains Gluten'],2.28,Monday
+CUST1036,REST7,Butter Chicken,Creamy tomato curry with grilled chicken,1,2024-04-25 00:58:08,Indian,"['Contains Dairy', 'Spicy']",3.04,Thursday
+CUST1005,REST9,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,5,2024-04-25 08:04:53,Middle Eastern,"['Vegan', 'Contains Gluten']",7.69,Thursday
+CUST1014,REST1,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,4,2024-04-27 04:04:00,Mediterranean,"['Vegetarian', 'Contains Dairy']",1.11,Saturday
+CUST1021,REST8,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,2,2024-04-27 10:50:02,Mediterranean,"['Vegetarian', 'Contains Dairy']",3.61,Saturday
+CUST1016,REST1,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,1,2024-04-28 02:27:21,Middle Eastern,['Contains Gluten'],4.49,Sunday
+CUST1044,REST5,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",2,2024-04-28 13:50:20,Japanese,"['Contains Gluten', 'Contains Pork']",0.24,Sunday
+CUST1038,REST9,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",1,2024-04-28 14:49:36,Japanese,"['Contains Gluten', 'Contains Pork']",4.68,Sunday
+CUST1048,REST4,Butter Chicken,Creamy tomato curry with grilled chicken,4,2024-04-29 03:11:57,Indian,"['Contains Dairy', 'Spicy']",0.93,Monday
+CUST1049,REST9,Butter Chicken,Creamy tomato curry with grilled chicken,2,2024-04-29 13:48:53,Indian,"['Contains Dairy', 'Spicy']",0.34,Monday
+CUST1028,REST2,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,1,2024-04-30 01:19:55,Korean,"['Spicy', 'Contains Gluten']",14.87,Tuesday
+CUST1040,REST3,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",5,2024-04-30 15:27:24,Plant-based,"['Vegan', 'Gluten-Free']",16.85,Tuesday
+CUST1031,REST8,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,4,2024-05-01 20:48:25,Mediterranean,"['Vegetarian', 'Contains Dairy']",8.26,Wednesday
+CUST1006,REST2,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",3,2024-05-03 09:23:31,Plant-based,"['Vegan', 'Gluten-Free']",1.82,Friday
+CUST1047,REST9,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",3,2024-05-03 16:16:42,Italian,"['Contains Gluten', 'Contains Dairy']",0.51,Friday
+CUST1005,REST6,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,3,2024-05-04 04:42:45,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",5.76,Saturday
+CUST1016,REST9,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",4,2024-05-04 09:40:08,Mexican,"['Seafood', 'Contains Gluten']",2.9,Saturday
+CUST1027,REST6,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,5,2024-05-05 09:00:35,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",0.65,Sunday
+CUST1035,REST10,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,5,2024-05-05 10:03:08,Indonesian,"['Spicy', 'Gluten-Free']",3.42,Sunday
+CUST1015,REST2,Duck à l’Orange,Roast duck with a tangy orange sauce,5,2024-05-05 15:56:00,French,['Contains Gluten'],0.17,Sunday
+CUST1020,REST7,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,3,2024-05-06 11:21:55,Korean,"['Spicy', 'Contains Gluten']",12.0,Monday
+CUST1007,REST1,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,4,2024-05-07 06:19:46,American,"['Contains Gluten', 'Contains Pork']",1.5,Tuesday
+CUST1004,REST8,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,3,2024-05-07 14:33:24,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",5.43,Tuesday
+CUST1032,REST10,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,1,2024-05-09 15:19:17,Korean,"['Spicy', 'Contains Gluten']",1.87,Thursday
+CUST1037,REST7,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,1,2024-05-10 09:21:51,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",3.67,Friday
+CUST1033,REST5,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,4,2024-05-11 04:23:55,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",3.96,Saturday
+CUST1040,REST10,Duck à l’Orange,Roast duck with a tangy orange sauce,1,2024-05-12 04:56:42,French,['Contains Gluten'],1.02,Sunday
+CUST1004,REST4,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,1,2024-05-12 05:25:08,Modern Australian,"['Seafood', 'Gluten-Free']",17.46,Sunday
+CUST1018,REST6,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",1,2024-05-12 19:51:21,Mexican,"['Seafood', 'Contains Gluten']",7.46,Sunday
+CUST1041,REST3,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",2,2024-05-13 21:24:36,Japanese,"['Contains Gluten', 'Contains Pork']",14.03,Monday
+CUST1004,REST3,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,4,2024-05-14 06:55:26,Indonesian,"['Spicy', 'Gluten-Free']",11.26,Tuesday
+CUST1036,REST5,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,5,2024-05-15 10:43:25,Modern Australian,"['Seafood', 'Gluten-Free']",4.56,Wednesday
+CUST1049,REST3,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",4,2024-05-19 00:09:36,Japanese,"['Contains Gluten', 'Contains Pork']",12.75,Sunday
+CUST1045,REST5,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,4,2024-05-19 17:47:32,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",0.46,Sunday
+CUST1046,REST6,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,1,2024-05-21 05:53:05,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",1.09,Tuesday
+CUST1013,REST7,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",4,2024-05-23 07:55:40,Plant-based,"['Vegan', 'Gluten-Free']",0.23,Thursday
+CUST1014,REST3,Duck à l’Orange,Roast duck with a tangy orange sauce,1,2024-05-23 19:43:01,French,['Contains Gluten'],1.97,Thursday
+CUST1005,REST7,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,3,2024-05-23 22:32:10,Korean,"['Spicy', 'Contains Gluten']",2.46,Thursday
+CUST1005,REST10,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",3,2024-05-26 06:38:13,Japanese,"['Contains Gluten', 'Contains Pork']",1.58,Sunday
+CUST1048,REST4,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,4,2024-05-27 16:07:08,Middle Eastern,"['Vegan', 'Contains Gluten']",8.82,Monday
+CUST1023,REST5,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,1,2024-05-27 18:37:27,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",2.21,Monday
+CUST1039,REST10,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",1,2024-05-29 01:37:35,Mexican,"['Seafood', 'Contains Gluten']",1.65,Wednesday
+CUST1009,REST4,Duck à l’Orange,Roast duck with a tangy orange sauce,3,2024-05-29 10:04:35,French,['Contains Gluten'],3.91,Wednesday
+CUST1031,REST2,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",3,2024-05-29 22:50:36,Plant-based,"['Vegan', 'Gluten-Free']",0.76,Wednesday
+CUST1017,REST3,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",4,2024-05-30 07:57:23,Mexican,"['Seafood', 'Contains Gluten']",8.1,Thursday
+CUST1032,REST3,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",2,2024-05-30 22:54:05,Italian,"['Contains Gluten', 'Contains Dairy']",0.39,Thursday
+CUST1039,REST7,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,1,2024-05-31 05:08:25,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",21.67,Friday
+CUST1026,REST8,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,4,2024-06-02 11:28:03,Middle Eastern,"['Vegan', 'Contains Gluten']",7.4,Sunday
+CUST1025,REST3,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,4,2024-06-02 21:52:54,Middle Eastern,"['Vegan', 'Contains Gluten']",1.11,Sunday
+CUST1003,REST1,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,5,2024-06-03 10:28:14,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",0.03,Monday
+CUST1043,REST6,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,1,2024-06-04 20:52:44,Middle Eastern,['Contains Gluten'],8.45,Tuesday
+CUST1024,REST3,Butter Chicken,Creamy tomato curry with grilled chicken,2,2024-06-05 09:00:50,Indian,"['Contains Dairy', 'Spicy']",6.14,Wednesday
+CUST1040,REST8,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",5,2024-06-06 19:38:01,Italian,"['Contains Gluten', 'Contains Dairy']",6.53,Thursday
+CUST1000,REST9,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,3,2024-06-08 09:29:52,Mediterranean,"['Vegetarian', 'Contains Dairy']",7.38,Saturday
+CUST1015,REST8,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,3,2024-06-10 17:53:46,Modern Australian,"['Seafood', 'Gluten-Free']",0.38,Monday
+CUST1006,REST10,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",3,2024-06-10 22:33:02,Plant-based,"['Vegan', 'Gluten-Free']",2.22,Monday
+CUST1035,REST5,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",4,2024-06-11 08:04:43,Japanese,"['Contains Gluten', 'Contains Pork']",0.62,Tuesday
+CUST1013,REST8,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,5,2024-06-11 11:38:11,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",9.94,Tuesday
+CUST1013,REST5,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,2,2024-06-12 12:09:10,Mediterranean,"['Vegetarian', 'Contains Dairy']",4.88,Wednesday
+CUST1041,REST6,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,4,2024-06-12 13:48:17,Indonesian,"['Spicy', 'Gluten-Free']",2.01,Wednesday
+CUST1018,REST10,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,3,2024-06-13 23:30:15,Middle Eastern,"['Vegan', 'Contains Gluten']",0.33,Thursday
+CUST1003,REST10,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,1,2024-06-15 06:12:30,Korean,"['Spicy', 'Contains Gluten']",1.86,Saturday
+CUST1028,REST2,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",5,2024-06-15 09:56:59,Japanese,"['Contains Gluten', 'Contains Pork']",1.97,Saturday
+CUST1028,REST3,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,4,2024-06-17 16:54:17,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",6.54,Monday
+CUST1031,REST9,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,5,2024-06-17 22:46:10,Modern Australian,"['Seafood', 'Gluten-Free']",5.07,Monday
+CUST1011,REST2,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,5,2024-06-20 03:16:38,Modern Australian,"['Seafood', 'Gluten-Free']",10.91,Thursday
+CUST1015,REST10,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,1,2024-06-20 21:04:05,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",3.2,Thursday
+CUST1048,REST4,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,2,2024-06-21 06:24:44,Middle Eastern,"['Vegan', 'Contains Gluten']",0.64,Friday
+CUST1042,REST10,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,5,2024-06-21 20:15:15,Korean,"['Spicy', 'Contains Gluten']",6.25,Friday
+CUST1010,REST4,Butter Chicken,Creamy tomato curry with grilled chicken,5,2024-06-22 03:02:56,Indian,"['Contains Dairy', 'Spicy']",7.15,Saturday
+CUST1045,REST4,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,4,2024-06-22 23:04:22,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",4.12,Saturday
+CUST1024,REST8,Duck à l’Orange,Roast duck with a tangy orange sauce,3,2024-06-23 04:28:17,French,['Contains Gluten'],7.37,Sunday
+CUST1047,REST8,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,3,2024-06-23 10:09:57,Modern Australian,"['Seafood', 'Gluten-Free']",3.4,Sunday
+CUST1019,REST7,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,5,2024-06-24 01:34:36,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",3.7,Monday
+CUST1044,REST8,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",1,2024-06-24 23:19:51,Mexican,"['Seafood', 'Contains Gluten']",2.79,Monday
+CUST1035,REST3,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,5,2024-06-25 02:21:06,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",0.13,Tuesday
+CUST1048,REST9,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,1,2024-06-26 12:53:35,Middle Eastern,"['Vegan', 'Contains Gluten']",0.57,Wednesday
+CUST1047,REST3,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,2,2024-06-27 01:44:25,Indonesian,"['Spicy', 'Gluten-Free']",0.16,Thursday
+CUST1030,REST7,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",1,2024-06-27 06:06:14,Plant-based,"['Vegan', 'Gluten-Free']",5.06,Thursday
+CUST1038,REST9,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,4,2024-06-30 06:56:51,Middle Eastern,"['Vegan', 'Contains Gluten']",1.89,Sunday
+CUST1026,REST6,Duck à l’Orange,Roast duck with a tangy orange sauce,4,2024-07-01 02:45:01,French,['Contains Gluten'],3.55,Monday
+CUST1006,REST4,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,1,2024-07-02 18:54:25,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",11.91,Tuesday
+CUST1037,REST9,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",4,2024-07-02 20:09:48,Japanese,"['Contains Gluten', 'Contains Pork']",1.43,Tuesday
+CUST1024,REST10,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",5,2024-07-06 05:23:33,Italian,"['Contains Gluten', 'Contains Dairy']",2.64,Saturday
+CUST1005,REST7,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,3,2024-07-06 06:08:40,Middle Eastern,"['Vegan', 'Contains Gluten']",7.04,Saturday
+CUST1002,REST6,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,5,2024-07-08 03:59:19,Middle Eastern,"['Vegan', 'Contains Gluten']",1.3,Monday
+CUST1028,REST10,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,4,2024-07-08 18:18:39,Middle Eastern,"['Vegan', 'Contains Gluten']",0.4,Monday
+CUST1050,REST1,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,5,2024-07-08 20:26:49,Middle Eastern,['Contains Gluten'],1.71,Monday
+CUST1029,REST8,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",1,2024-07-09 00:41:00,Italian,"['Contains Gluten', 'Contains Dairy']",0.88,Tuesday
+CUST1020,REST1,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,3,2024-07-09 00:49:38,Middle Eastern,"['Vegan', 'Contains Gluten']",13.27,Tuesday
+CUST1007,REST2,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",3,2024-07-09 10:21:02,Japanese,"['Contains Gluten', 'Contains Pork']",8.25,Tuesday
+CUST1026,REST6,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",1,2024-07-10 02:22:40,Plant-based,"['Vegan', 'Gluten-Free']",5.02,Wednesday
+CUST1007,REST6,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",4,2024-07-13 21:24:19,Plant-based,"['Vegan', 'Gluten-Free']",10.26,Saturday
+CUST1027,REST1,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,1,2024-07-14 05:11:41,Indonesian,"['Spicy', 'Gluten-Free']",8.14,Sunday
+CUST1003,REST4,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",4,2024-07-17 03:17:35,Plant-based,"['Vegan', 'Gluten-Free']",1.03,Wednesday
+CUST1001,REST1,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,2,2024-07-20 07:50:42,Korean,"['Spicy', 'Contains Gluten']",11.15,Saturday
+CUST1008,REST5,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,4,2024-07-21 10:24:25,Korean,"['Spicy', 'Contains Gluten']",3.88,Sunday
+CUST1030,REST9,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",1,2024-07-23 10:15:08,Japanese,"['Contains Gluten', 'Contains Pork']",8.24,Tuesday
+CUST1018,REST9,Butter Chicken,Creamy tomato curry with grilled chicken,1,2024-07-24 04:30:22,Indian,"['Contains Dairy', 'Spicy']",11.32,Wednesday
+CUST1040,REST5,Butter Chicken,Creamy tomato curry with grilled chicken,4,2024-07-27 14:51:38,Indian,"['Contains Dairy', 'Spicy']",1.91,Saturday
+CUST1002,REST4,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,1,2024-07-27 18:26:35,Middle Eastern,"['Vegan', 'Contains Gluten']",0.58,Saturday
+CUST1015,REST8,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,3,2024-07-28 02:04:29,Indonesian,"['Spicy', 'Gluten-Free']",1.29,Sunday
+CUST1042,REST7,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,2,2024-07-28 17:32:43,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",2.79,Sunday
+CUST1043,REST2,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",4,2024-07-29 10:21:11,Italian,"['Contains Gluten', 'Contains Dairy']",8.52,Monday
+CUST1019,REST8,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,1,2024-07-31 16:10:30,Indonesian,"['Spicy', 'Gluten-Free']",9.86,Wednesday
+CUST1049,REST10,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,5,2024-08-01 06:25:08,Indonesian,"['Spicy', 'Gluten-Free']",0.03,Thursday
+CUST1022,REST6,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,1,2024-08-01 20:51:15,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",3.57,Thursday
+CUST1047,REST1,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,5,2024-08-03 11:11:53,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",2.7,Saturday
+CUST1002,REST8,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,2,2024-08-03 13:51:45,American,"['Contains Gluten', 'Contains Pork']",1.26,Saturday
+CUST1033,REST6,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,5,2024-08-04 09:51:45,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",0.64,Sunday
+CUST1038,REST8,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",2,2024-08-04 22:43:44,Italian,"['Contains Gluten', 'Contains Dairy']",2.06,Sunday
+CUST1017,REST9,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,4,2024-08-05 14:35:44,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",14.32,Monday
+CUST1014,REST2,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",1,2024-08-05 16:00:03,Italian,"['Contains Gluten', 'Contains Dairy']",1.95,Monday
+CUST1009,REST4,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,2,2024-08-05 16:03:13,Modern Australian,"['Seafood', 'Gluten-Free']",3.66,Monday
+CUST1019,REST7,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",5,2024-08-06 04:35:20,Japanese,"['Contains Gluten', 'Contains Pork']",6.07,Tuesday
+CUST1012,REST9,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,2,2024-08-06 10:12:11,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",2.26,Tuesday
+CUST1002,REST5,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,2,2024-08-06 20:51:03,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",17.84,Tuesday
+CUST1007,REST2,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,5,2024-08-07 14:54:17,American,"['Contains Gluten', 'Contains Pork']",16.41,Wednesday
+CUST1040,REST1,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,4,2024-08-08 06:53:34,Middle Eastern,"['Vegan', 'Contains Gluten']",1.45,Thursday
+CUST1021,REST6,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,2,2024-08-08 10:40:58,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",3.44,Thursday
+CUST1027,REST7,Duck à l’Orange,Roast duck with a tangy orange sauce,1,2024-08-08 21:17:45,French,['Contains Gluten'],1.79,Thursday
+CUST1022,REST4,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,1,2024-08-09 06:55:41,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",1.68,Friday
+CUST1040,REST10,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,2,2024-08-09 07:13:31,American,"['Contains Gluten', 'Contains Pork']",0.19,Friday
+CUST1002,REST1,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,1,2024-08-13 10:31:02,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",4.7,Tuesday
+CUST1036,REST4,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,5,2024-08-13 12:59:57,Korean,"['Spicy', 'Contains Gluten']",3.49,Tuesday
+CUST1033,REST7,Butter Chicken,Creamy tomato curry with grilled chicken,2,2024-08-14 03:13:52,Indian,"['Contains Dairy', 'Spicy']",0.26,Wednesday
+CUST1033,REST3,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,2,2024-08-14 06:04:02,Middle Eastern,"['Vegan', 'Contains Gluten']",1.63,Wednesday
+CUST1004,REST7,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,1,2024-08-14 15:02:31,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",11.94,Wednesday
+CUST1011,REST4,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",5,2024-08-15 23:21:03,Japanese,"['Contains Gluten', 'Contains Pork']",1.37,Thursday
+CUST1005,REST3,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,5,2024-08-19 05:07:15,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",0.78,Monday
+CUST1031,REST4,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,3,2024-08-19 14:01:48,Middle Eastern,['Contains Gluten'],3.36,Monday
+CUST1017,REST3,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,3,2024-08-19 18:25:37,Mediterranean,"['Vegetarian', 'Contains Dairy']",21.22,Monday
+CUST1050,REST2,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,4,2024-08-20 04:11:55,Mediterranean,"['Vegetarian', 'Contains Dairy']",1.39,Tuesday
+CUST1013,REST3,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",1,2024-08-21 18:15:15,Plant-based,"['Vegan', 'Gluten-Free']",5.58,Wednesday
+CUST1004,REST5,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,3,2024-08-22 17:50:14,American,"['Contains Gluten', 'Contains Pork']",7.17,Thursday
+CUST1023,REST2,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,1,2024-08-23 08:27:44,Modern Australian,"['Seafood', 'Gluten-Free']",1.36,Friday
+CUST1009,REST5,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",2,2024-08-23 14:18:12,Japanese,"['Contains Gluten', 'Contains Pork']",6.51,Friday
+CUST1002,REST6,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,4,2024-08-24 02:56:17,Mediterranean,"['Vegetarian', 'Contains Dairy']",2.29,Saturday
+CUST1004,REST7,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,5,2024-08-24 09:30:08,Modern Australian,"['Seafood', 'Gluten-Free']",5.0,Saturday
+CUST1020,REST2,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,5,2024-08-24 09:42:34,Middle Eastern,"['Vegan', 'Contains Gluten']",5.02,Saturday
+CUST1020,REST8,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,4,2024-08-25 09:51:25,Modern Australian,"['Seafood', 'Gluten-Free']",3.84,Sunday
+CUST1029,REST7,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",1,2024-08-27 01:46:35,Plant-based,"['Vegan', 'Gluten-Free']",0.47,Tuesday
+CUST1008,REST1,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,3,2024-08-28 04:46:01,Middle Eastern,"['Vegan', 'Contains Gluten']",9.02,Wednesday
+CUST1027,REST2,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,5,2024-08-28 10:01:51,Middle Eastern,"['Vegan', 'Contains Gluten']",1.93,Wednesday
+CUST1007,REST5,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,4,2024-08-29 00:01:24,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",1.03,Thursday
+CUST1005,REST7,Butter Chicken,Creamy tomato curry with grilled chicken,5,2024-08-29 01:30:44,Indian,"['Contains Dairy', 'Spicy']",0.21,Thursday
+CUST1047,REST6,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,1,2024-08-31 13:18:29,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",4.47,Saturday
+CUST1025,REST9,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,3,2024-09-01 08:00:10,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",5.66,Sunday
+CUST1050,REST10,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,3,2024-09-04 05:18:26,Indonesian,"['Spicy', 'Gluten-Free']",0.08,Wednesday
+CUST1014,REST3,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,1,2024-09-05 09:52:09,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",3.59,Thursday
+CUST1010,REST5,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,4,2024-09-06 00:28:36,Middle Eastern,"['Vegan', 'Contains Gluten']",1.28,Friday
+CUST1029,REST2,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",4,2024-09-07 10:25:49,Japanese,"['Contains Gluten', 'Contains Pork']",5.18,Saturday
+CUST1034,REST8,Duck à l’Orange,Roast duck with a tangy orange sauce,4,2024-09-08 08:48:20,French,['Contains Gluten'],0.96,Sunday
+CUST1043,REST9,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,2,2024-09-08 12:27:46,Middle Eastern,['Contains Gluten'],5.87,Sunday
+CUST1011,REST1,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,4,2024-09-08 13:05:24,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",2.44,Sunday
+CUST1005,REST4,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,3,2024-09-08 14:25:54,Indonesian,"['Spicy', 'Gluten-Free']",13.8,Sunday
+CUST1015,REST7,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,5,2024-09-09 09:13:23,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",0.74,Monday
+CUST1017,REST1,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",5,2024-09-11 01:59:21,Italian,"['Contains Gluten', 'Contains Dairy']",2.09,Wednesday
+CUST1033,REST7,Butter Chicken,Creamy tomato curry with grilled chicken,2,2024-09-11 06:22:43,Indian,"['Contains Dairy', 'Spicy']",0.6,Wednesday
+CUST1042,REST9,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",5,2024-09-11 12:09:36,Plant-based,"['Vegan', 'Gluten-Free']",12.93,Wednesday
+CUST1027,REST10,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,4,2024-09-11 19:08:54,Modern Australian,"['Seafood', 'Gluten-Free']",10.49,Wednesday
+CUST1048,REST8,Duck à l’Orange,Roast duck with a tangy orange sauce,5,2024-09-12 05:36:31,French,['Contains Gluten'],1.49,Thursday
+CUST1050,REST1,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,2,2024-09-12 08:03:39,Middle Eastern,['Contains Gluten'],5.39,Thursday
+CUST1047,REST9,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,3,2024-09-14 07:58:33,Korean,"['Spicy', 'Contains Gluten']",8.5,Saturday
+CUST1007,REST9,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,2,2024-09-15 23:18:14,American,"['Contains Gluten', 'Contains Pork']",4.05,Sunday
+CUST1028,REST8,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,5,2024-09-16 08:01:18,Mediterranean,"['Vegetarian', 'Contains Dairy']",3.77,Monday
+CUST1031,REST9,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,1,2024-09-18 22:58:30,Middle Eastern,"['Vegan', 'Contains Gluten']",1.38,Wednesday
+CUST1035,REST3,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,4,2024-09-20 05:01:19,Middle Eastern,"['Vegan', 'Contains Gluten']",0.49,Friday
+CUST1020,REST2,Duck à l’Orange,Roast duck with a tangy orange sauce,4,2024-09-20 12:17:34,French,['Contains Gluten'],11.38,Friday
+CUST1028,REST5,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,5,2024-09-21 01:42:21,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",11.53,Saturday
+CUST1015,REST2,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,2,2024-09-23 06:14:21,Indonesian,"['Spicy', 'Gluten-Free']",5.01,Monday
+CUST1009,REST3,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,2,2024-09-25 05:50:45,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",2.07,Wednesday
+CUST1048,REST1,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,3,2024-09-25 08:43:28,Mediterranean,"['Vegetarian', 'Contains Dairy']",2.15,Wednesday
+CUST1022,REST8,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",3,2024-09-26 22:51:46,Italian,"['Contains Gluten', 'Contains Dairy']",6.47,Thursday
+CUST1023,REST3,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,1,2024-09-27 21:58:44,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",11.37,Friday
+CUST1008,REST8,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,4,2024-09-29 00:19:36,Korean,"['Spicy', 'Contains Gluten']",10.91,Sunday
+CUST1023,REST5,Butter Chicken,Creamy tomato curry with grilled chicken,2,2024-09-29 07:14:35,Indian,"['Contains Dairy', 'Spicy']",7.57,Sunday
+CUST1044,REST8,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,2,2024-09-29 19:15:05,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",5.14,Sunday
+CUST1045,REST5,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,5,2024-09-30 09:52:38,Indonesian,"['Spicy', 'Gluten-Free']",0.44,Monday
+CUST1039,REST10,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,4,2024-10-01 01:43:03,Modern Australian,"['Seafood', 'Gluten-Free']",0.88,Tuesday
+CUST1024,REST4,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",1,2024-10-01 03:44:41,Plant-based,"['Vegan', 'Gluten-Free']",11.44,Tuesday
+CUST1009,REST4,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",4,2024-10-01 19:43:54,Japanese,"['Contains Gluten', 'Contains Pork']",4.66,Tuesday
+CUST1031,REST4,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,4,2024-10-02 14:47:25,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",0.05,Wednesday
+CUST1041,REST10,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,2,2024-10-03 16:40:39,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",0.53,Thursday
+CUST1020,REST2,Butter Chicken,Creamy tomato curry with grilled chicken,3,2024-10-03 20:12:59,Indian,"['Contains Dairy', 'Spicy']",5.45,Thursday
+CUST1012,REST7,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,1,2024-10-04 01:33:47,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",0.03,Friday
+CUST1027,REST1,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,2,2024-10-04 03:14:42,Middle Eastern,['Contains Gluten'],0.88,Friday
+CUST1046,REST10,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",3,2024-10-04 22:33:57,Japanese,"['Contains Gluten', 'Contains Pork']",3.98,Friday
+CUST1021,REST5,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,3,2024-10-05 11:03:28,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",5.89,Saturday
+CUST1040,REST2,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,3,2024-10-06 21:24:32,Indonesian,"['Spicy', 'Gluten-Free']",5.28,Sunday
+CUST1046,REST6,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",2,2024-10-06 22:08:20,Mexican,"['Seafood', 'Contains Gluten']",1.27,Sunday
+CUST1004,REST4,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,3,2024-10-08 01:43:40,Middle Eastern,['Contains Gluten'],6.23,Tuesday
+CUST1046,REST8,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",4,2024-10-08 06:42:39,Mexican,"['Seafood', 'Contains Gluten']",1.35,Tuesday
+CUST1032,REST3,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",1,2024-10-08 15:19:05,Plant-based,"['Vegan', 'Gluten-Free']",1.97,Tuesday
+CUST1027,REST2,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,5,2024-10-08 17:20:05,Korean,"['Spicy', 'Contains Gluten']",6.86,Tuesday
+CUST1036,REST1,Butter Chicken,Creamy tomato curry with grilled chicken,4,2024-10-08 19:07:13,Indian,"['Contains Dairy', 'Spicy']",5.24,Tuesday
+CUST1012,REST2,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",1,2024-10-09 14:07:48,Japanese,"['Contains Gluten', 'Contains Pork']",9.46,Wednesday
+CUST1002,REST6,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,5,2024-10-09 15:56:13,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",5.36,Wednesday
+CUST1026,REST1,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,5,2024-10-10 17:09:34,Modern Australian,"['Seafood', 'Gluten-Free']",4.2,Thursday
+CUST1005,REST10,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",4,2024-10-12 02:16:25,Italian,"['Contains Gluten', 'Contains Dairy']",0.49,Saturday
+CUST1049,REST5,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,3,2024-10-15 11:33:04,American,"['Contains Gluten', 'Contains Pork']",2.29,Tuesday
+CUST1030,REST1,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,3,2024-10-15 21:52:54,Modern Australian,"['Seafood', 'Gluten-Free']",1.54,Tuesday
+CUST1049,REST9,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",5,2024-10-16 00:03:34,Plant-based,"['Vegan', 'Gluten-Free']",1.4,Wednesday
+CUST1014,REST6,Butter Chicken,Creamy tomato curry with grilled chicken,1,2024-10-16 06:05:54,Indian,"['Contains Dairy', 'Spicy']",18.06,Wednesday
+CUST1004,REST4,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,2,2024-10-16 07:01:31,Korean,"['Spicy', 'Contains Gluten']",2.5,Wednesday
+CUST1049,REST10,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",5,2024-10-16 20:51:06,Plant-based,"['Vegan', 'Gluten-Free']",11.13,Wednesday
+CUST1012,REST3,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,1,2024-10-17 12:23:15,Indonesian,"['Spicy', 'Gluten-Free']",4.99,Thursday
+CUST1019,REST7,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",5,2024-10-18 02:40:56,Plant-based,"['Vegan', 'Gluten-Free']",7.92,Friday
+CUST1005,REST2,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,4,2024-10-18 02:58:09,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",3.49,Friday
+CUST1008,REST3,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,3,2024-10-18 05:50:12,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",4.3,Friday
+CUST1009,REST3,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",1,2024-10-18 11:40:43,Italian,"['Contains Gluten', 'Contains Dairy']",3.39,Friday
+CUST1011,REST5,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",2,2024-10-19 14:08:00,Italian,"['Contains Gluten', 'Contains Dairy']",1.09,Saturday
+CUST1003,REST5,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,1,2024-10-20 15:00:14,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",6.41,Sunday
+CUST1014,REST9,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,3,2024-10-20 21:59:20,American,"['Contains Gluten', 'Contains Pork']",1.65,Sunday
+CUST1019,REST2,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",3,2024-10-21 02:32:17,Japanese,"['Contains Gluten', 'Contains Pork']",0.12,Monday
+CUST1043,REST9,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,5,2024-10-21 04:02:11,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",5.18,Monday
+CUST1017,REST7,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,5,2024-10-21 04:12:05,Korean,"['Spicy', 'Contains Gluten']",0.97,Monday
+CUST1018,REST10,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,3,2024-10-22 04:47:56,Mediterranean,"['Vegetarian', 'Contains Dairy']",14.11,Tuesday
+CUST1021,REST3,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,3,2024-10-22 12:29:00,Middle Eastern,['Contains Gluten'],15.39,Tuesday
+CUST1042,REST8,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,1,2024-10-23 09:20:41,American,"['Contains Gluten', 'Contains Pork']",12.32,Wednesday
+CUST1006,REST2,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,1,2024-10-23 19:37:04,Modern Australian,"['Seafood', 'Gluten-Free']",2.31,Wednesday
+CUST1004,REST6,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",5,2024-10-24 11:01:52,Mexican,"['Seafood', 'Contains Gluten']",0.08,Thursday
+CUST1023,REST5,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,3,2024-10-25 16:10:02,Modern Australian,"['Seafood', 'Gluten-Free']",13.18,Friday
+CUST1018,REST4,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",2,2024-10-26 11:46:59,Italian,"['Contains Gluten', 'Contains Dairy']",2.79,Saturday
+CUST1004,REST6,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,5,2024-10-27 01:15:01,Indonesian,"['Spicy', 'Gluten-Free']",17.0,Sunday
+CUST1038,REST7,Butter Chicken,Creamy tomato curry with grilled chicken,4,2024-10-27 19:47:22,Indian,"['Contains Dairy', 'Spicy']",16.57,Sunday
+CUST1039,REST7,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,3,2024-10-27 20:31:38,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",9.59,Sunday
+CUST1036,REST4,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",3,2024-10-27 23:44:22,Japanese,"['Contains Gluten', 'Contains Pork']",1.74,Sunday
+CUST1027,REST10,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,4,2024-10-28 15:35:25,Korean,"['Spicy', 'Contains Gluten']",2.43,Monday
+CUST1011,REST10,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,1,2024-10-30 06:41:37,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",9.52,Wednesday
+CUST1003,REST3,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,1,2024-10-31 02:15:49,Modern Australian,"['Seafood', 'Gluten-Free']",1.91,Thursday
+CUST1048,REST3,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",3,2024-10-31 18:37:13,Mexican,"['Seafood', 'Contains Gluten']",0.93,Thursday
+CUST1049,REST6,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",3,2024-10-31 20:10:16,Italian,"['Contains Gluten', 'Contains Dairy']",4.07,Thursday
+CUST1018,REST5,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,4,2024-11-01 18:10:18,Indonesian,"['Spicy', 'Gluten-Free']",13.76,Friday
+CUST1008,REST7,Duck à l’Orange,Roast duck with a tangy orange sauce,3,2024-11-02 05:21:15,French,['Contains Gluten'],5.95,Saturday
+CUST1033,REST8,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,2,2024-11-03 03:35:19,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",4.22,Sunday
+CUST1003,REST2,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",3,2024-11-03 20:53:32,Plant-based,"['Vegan', 'Gluten-Free']",0.51,Sunday
+CUST1047,REST3,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",1,2024-11-04 07:55:59,Plant-based,"['Vegan', 'Gluten-Free']",4.77,Monday
+CUST1018,REST2,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,1,2024-11-04 20:48:34,Modern Australian,"['Seafood', 'Gluten-Free']",23.05,Monday
+CUST1027,REST10,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,5,2024-11-05 12:42:00,Modern Australian,"['Seafood', 'Gluten-Free']",0.75,Tuesday
+CUST1031,REST10,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",3,2024-11-05 22:55:41,Plant-based,"['Vegan', 'Gluten-Free']",3.65,Tuesday
+CUST1020,REST3,Duck à l’Orange,Roast duck with a tangy orange sauce,3,2024-11-06 05:06:36,French,['Contains Gluten'],10.49,Wednesday
+CUST1032,REST10,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",1,2024-11-06 18:39:39,Plant-based,"['Vegan', 'Gluten-Free']",6.75,Wednesday
+CUST1048,REST4,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,5,2024-11-09 13:51:18,Modern Australian,"['Seafood', 'Gluten-Free']",5.97,Saturday
+CUST1020,REST10,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",1,2024-11-10 05:33:33,Japanese,"['Contains Gluten', 'Contains Pork']",6.06,Sunday
+CUST1000,REST9,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,1,2024-11-10 19:26:30,Mediterranean,"['Vegetarian', 'Contains Dairy']",2.23,Sunday
+CUST1046,REST3,Duck à l’Orange,Roast duck with a tangy orange sauce,2,2024-11-10 23:05:12,French,['Contains Gluten'],1.74,Sunday
+CUST1047,REST8,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,2,2024-11-11 14:37:40,Middle Eastern,"['Vegan', 'Contains Gluten']",8.29,Monday
+CUST1038,REST8,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",3,2024-11-12 07:27:08,Plant-based,"['Vegan', 'Gluten-Free']",8.31,Tuesday
+CUST1004,REST4,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,2,2024-11-12 08:01:29,Middle Eastern,"['Vegan', 'Contains Gluten']",10.09,Tuesday
+CUST1011,REST8,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,3,2024-11-13 16:00:31,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",12.22,Wednesday
+CUST1012,REST5,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,1,2024-11-13 21:41:43,Mediterranean,"['Vegetarian', 'Contains Dairy']",3.58,Wednesday
+CUST1022,REST9,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,2,2024-11-13 21:42:10,Korean,"['Spicy', 'Contains Gluten']",3.48,Wednesday
+CUST1013,REST9,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",3,2024-11-14 14:05:12,Mexican,"['Seafood', 'Contains Gluten']",8.0,Thursday
+CUST1041,REST10,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,3,2024-11-15 00:48:28,Korean,"['Spicy', 'Contains Gluten']",5.25,Friday
+CUST1007,REST1,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,4,2024-11-16 09:46:43,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",6.05,Saturday
+CUST1047,REST9,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,5,2024-11-16 19:30:56,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",7.94,Saturday
+CUST1014,REST2,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,2,2024-11-20 16:53:57,Mediterranean,"['Vegetarian', 'Contains Dairy']",11.04,Wednesday
+CUST1042,REST10,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,4,2024-11-20 22:39:15,Middle Eastern,['Contains Gluten'],2.06,Wednesday
+CUST1030,REST8,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,2,2024-11-21 00:26:20,Korean,"['Spicy', 'Contains Gluten']",2.35,Thursday
+CUST1033,REST10,Butter Chicken,Creamy tomato curry with grilled chicken,3,2024-11-22 08:03:50,Indian,"['Contains Dairy', 'Spicy']",0.49,Friday
+CUST1047,REST6,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",1,2024-11-22 21:01:26,Japanese,"['Contains Gluten', 'Contains Pork']",4.32,Friday
+CUST1017,REST8,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",4,2024-11-23 19:08:41,Plant-based,"['Vegan', 'Gluten-Free']",0.18,Saturday
+CUST1046,REST10,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,3,2024-11-23 20:26:27,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",3.13,Saturday
+CUST1036,REST5,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,2,2024-11-24 14:42:12,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",3.91,Sunday
+CUST1037,REST10,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,2,2024-11-24 21:06:00,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",1.69,Sunday
+CUST1026,REST2,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,1,2024-11-24 23:54:31,American,"['Contains Gluten', 'Contains Pork']",4.47,Sunday
+CUST1048,REST9,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",4,2024-11-26 15:02:22,Italian,"['Contains Gluten', 'Contains Dairy']",0.15,Tuesday
+CUST1008,REST9,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,1,2024-11-27 00:47:16,Korean,"['Spicy', 'Contains Gluten']",0.19,Wednesday
+CUST1002,REST6,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,3,2024-11-27 09:15:25,Modern Australian,"['Seafood', 'Gluten-Free']",8.65,Wednesday
+CUST1013,REST10,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,4,2024-11-27 14:21:23,Middle Eastern,"['Vegan', 'Contains Gluten']",2.23,Wednesday
+CUST1042,REST5,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,2,2024-11-27 22:56:13,Indonesian,"['Spicy', 'Gluten-Free']",0.68,Wednesday
+CUST1028,REST2,Duck à l’Orange,Roast duck with a tangy orange sauce,1,2024-11-28 01:27:26,French,['Contains Gluten'],3.69,Thursday
+CUST1007,REST5,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",2,2024-11-28 13:38:50,Plant-based,"['Vegan', 'Gluten-Free']",7.35,Thursday
+CUST1020,REST2,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,4,2024-11-28 17:20:24,Indonesian,"['Spicy', 'Gluten-Free']",1.22,Thursday
+CUST1011,REST3,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,5,2024-11-28 18:32:10,Modern Australian,"['Seafood', 'Gluten-Free']",4.88,Thursday
+CUST1005,REST5,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,4,2024-11-28 22:05:10,Korean,"['Spicy', 'Contains Gluten']",0.45,Thursday
+CUST1005,REST3,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,4,2024-11-29 15:06:01,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",0.27,Friday
+CUST1023,REST4,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,1,2024-11-29 16:49:37,Modern Australian,"['Seafood', 'Gluten-Free']",3.79,Friday
+CUST1038,REST3,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,2,2024-11-29 23:47:52,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",3.89,Friday
+CUST1014,REST8,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,1,2024-12-01 05:40:18,Middle Eastern,['Contains Gluten'],5.07,Sunday
+CUST1012,REST5,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,3,2024-12-01 06:52:41,American,"['Contains Gluten', 'Contains Pork']",6.47,Sunday
+CUST1038,REST10,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,5,2024-12-01 22:36:33,American,"['Contains Gluten', 'Contains Pork']",18.62,Sunday
+CUST1011,REST5,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,5,2024-12-02 00:26:56,Indonesian,"['Spicy', 'Gluten-Free']",3.63,Monday
+CUST1008,REST10,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,1,2024-12-04 10:32:09,Mediterranean,"['Vegetarian', 'Contains Dairy']",1.95,Wednesday
+CUST1033,REST6,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,4,2024-12-04 15:07:31,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",7.93,Wednesday
+CUST1048,REST9,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,5,2024-12-05 13:12:06,Mediterranean,"['Vegetarian', 'Contains Dairy']",1.58,Thursday
+CUST1012,REST9,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",2,2024-12-05 21:44:05,Plant-based,"['Vegan', 'Gluten-Free']",2.89,Thursday
+CUST1047,REST9,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,4,2024-12-06 17:08:25,American,"['Contains Gluten', 'Contains Pork']",0.41,Friday
+CUST1044,REST8,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,3,2024-12-06 22:54:15,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",0.13,Friday
+CUST1049,REST10,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",5,2024-12-07 14:19:00,Japanese,"['Contains Gluten', 'Contains Pork']",16.44,Saturday
+CUST1024,REST8,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,3,2024-12-07 18:52:35,Indonesian,"['Spicy', 'Gluten-Free']",9.04,Saturday
+CUST1021,REST1,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",3,2024-12-07 22:29:26,Mexican,"['Seafood', 'Contains Gluten']",5.95,Saturday
+CUST1030,REST8,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,4,2024-12-08 19:02:56,American,"['Contains Gluten', 'Contains Pork']",2.63,Sunday
+CUST1028,REST10,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,3,2024-12-09 02:53:03,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",0.95,Monday
+CUST1006,REST9,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",3,2024-12-09 19:55:49,Mexican,"['Seafood', 'Contains Gluten']",0.85,Monday
+CUST1014,REST5,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",4,2024-12-10 10:37:42,Plant-based,"['Vegan', 'Gluten-Free']",1.44,Tuesday
+CUST1047,REST6,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",2,2024-12-10 18:11:05,Plant-based,"['Vegan', 'Gluten-Free']",3.98,Tuesday
+CUST1027,REST10,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,3,2024-12-11 08:57:28,Modern Australian,"['Seafood', 'Gluten-Free']",6.27,Wednesday
+CUST1027,REST3,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,4,2024-12-11 10:15:17,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",5.4,Wednesday
+CUST1009,REST5,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,2,2024-12-11 18:37:23,Mediterranean,"['Vegetarian', 'Contains Dairy']",1.64,Wednesday
+CUST1028,REST4,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,1,2024-12-11 21:46:15,Middle Eastern,['Contains Gluten'],15.49,Wednesday
+CUST1017,REST1,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,3,2024-12-13 01:53:20,Middle Eastern,"['Vegan', 'Contains Gluten']",6.7,Friday
+CUST1040,REST4,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,1,2024-12-13 07:10:18,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",4.04,Friday
+CUST1049,REST8,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,2,2024-12-13 08:22:49,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",4.73,Friday
+CUST1024,REST5,Duck à l’Orange,Roast duck with a tangy orange sauce,3,2024-12-13 23:01:44,French,['Contains Gluten'],2.72,Friday
+CUST1018,REST3,Duck à l’Orange,Roast duck with a tangy orange sauce,5,2024-12-15 04:01:05,French,['Contains Gluten'],1.42,Sunday
+CUST1038,REST3,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,2,2024-12-15 07:27:53,American,"['Contains Gluten', 'Contains Pork']",2.2,Sunday
+CUST1048,REST3,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",3,2024-12-15 17:19:46,Plant-based,"['Vegan', 'Gluten-Free']",7.09,Sunday
+CUST1022,REST2,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,3,2024-12-16 04:11:10,American,"['Contains Gluten', 'Contains Pork']",0.07,Monday
+CUST1002,REST4,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,3,2024-12-16 23:33:08,Middle Eastern,"['Vegan', 'Contains Gluten']",0.62,Monday
+CUST1048,REST1,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",2,2024-12-17 03:44:40,Mexican,"['Seafood', 'Contains Gluten']",0.24,Tuesday
+CUST1015,REST4,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,5,2024-12-19 02:42:31,Indonesian,"['Spicy', 'Gluten-Free']",0.21,Thursday
+CUST1042,REST3,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,1,2024-12-20 18:05:06,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",9.67,Friday
+CUST1030,REST8,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,5,2024-12-21 23:43:40,Middle Eastern,['Contains Gluten'],6.08,Saturday
+CUST1014,REST2,Duck à l’Orange,Roast duck with a tangy orange sauce,3,2024-12-22 02:43:11,French,['Contains Gluten'],3.21,Sunday
+CUST1038,REST3,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,1,2024-12-22 04:16:41,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",0.51,Sunday
+CUST1030,REST3,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,3,2024-12-22 13:18:39,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",3.38,Sunday
+CUST1050,REST2,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",3,2024-12-23 02:47:56,Italian,"['Contains Gluten', 'Contains Dairy']",3.21,Monday
+CUST1016,REST8,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,3,2024-12-23 21:59:02,Middle Eastern,"['Vegan', 'Contains Gluten']",0.95,Monday
+CUST1012,REST4,Duck à l’Orange,Roast duck with a tangy orange sauce,2,2024-12-24 12:53:06,French,['Contains Gluten'],2.84,Tuesday
+CUST1002,REST4,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,3,2024-12-24 12:53:43,Middle Eastern,"['Vegan', 'Contains Gluten']",2.54,Tuesday
+CUST1020,REST4,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,5,2024-12-24 19:06:14,American,"['Contains Gluten', 'Contains Pork']",4.78,Tuesday
+CUST1014,REST7,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,3,2024-12-25 01:59:17,American,"['Contains Gluten', 'Contains Pork']",5.04,Wednesday
+CUST1000,REST2,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,3,2024-12-25 19:43:57,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",0.23,Wednesday
+CUST1010,REST3,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,5,2024-12-26 05:49:45,Middle Eastern,['Contains Gluten'],2.35,Thursday
+CUST1035,REST4,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,1,2024-12-26 11:44:41,American,"['Contains Gluten', 'Contains Pork']",4.92,Thursday
+CUST1026,REST7,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,2,2024-12-26 17:32:06,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",3.5,Thursday
+CUST1006,REST1,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,1,2024-12-28 01:17:49,Indonesian,"['Spicy', 'Gluten-Free']",9.71,Saturday
+CUST1034,REST4,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,2,2024-12-28 18:18:15,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",5.37,Saturday
+CUST1008,REST5,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",1,2024-12-29 06:26:34,Italian,"['Contains Gluten', 'Contains Dairy']",0.89,Sunday
+CUST1007,REST9,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",5,2024-12-29 08:48:15,Plant-based,"['Vegan', 'Gluten-Free']",0.37,Sunday
+CUST1023,REST9,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,2,2024-12-30 07:28:30,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",5.14,Monday
+CUST1006,REST6,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",5,2024-12-30 08:51:43,Japanese,"['Contains Gluten', 'Contains Pork']",0.13,Monday
+CUST1045,REST8,Duck à l’Orange,Roast duck with a tangy orange sauce,5,2024-12-31 22:52:44,French,['Contains Gluten'],4.41,Tuesday
+CUST1050,REST8,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,3,2025-01-03 06:40:30,Mediterranean,"['Vegetarian', 'Contains Dairy']",14.09,Friday
+CUST1044,REST5,Duck à l’Orange,Roast duck with a tangy orange sauce,3,2025-01-03 09:03:22,French,['Contains Gluten'],4.28,Friday
+CUST1008,REST2,Duck à l’Orange,Roast duck with a tangy orange sauce,1,2025-01-06 16:36:32,French,['Contains Gluten'],2.46,Monday
+CUST1028,REST2,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,2,2025-01-06 18:23:52,American,"['Contains Gluten', 'Contains Pork']",5.15,Monday
+CUST1010,REST6,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,3,2025-01-06 20:59:28,American,"['Contains Gluten', 'Contains Pork']",3.06,Monday
+CUST1047,REST3,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,2,2025-01-07 10:06:16,American,"['Contains Gluten', 'Contains Pork']",3.94,Tuesday
+CUST1015,REST8,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,4,2025-01-07 18:10:44,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",14.19,Tuesday
+CUST1028,REST9,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,3,2025-01-10 08:55:32,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",2.44,Friday
+CUST1043,REST9,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,3,2025-01-12 04:39:02,Modern Australian,"['Seafood', 'Gluten-Free']",16.25,Sunday
+CUST1033,REST5,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,3,2025-01-13 00:23:22,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",11.79,Monday
+CUST1026,REST10,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,4,2025-01-13 10:26:13,Mediterranean,"['Vegetarian', 'Contains Dairy']",1.09,Monday
+CUST1036,REST1,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",2,2025-01-14 02:05:41,Japanese,"['Contains Gluten', 'Contains Pork']",0.36,Tuesday
+CUST1013,REST5,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,3,2025-01-14 09:45:15,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",0.53,Tuesday
+CUST1002,REST1,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,2,2025-01-14 16:15:03,Korean,"['Spicy', 'Contains Gluten']",0.09,Tuesday
+CUST1046,REST6,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",5,2025-01-15 12:09:13,Plant-based,"['Vegan', 'Gluten-Free']",0.5,Wednesday
+CUST1013,REST4,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,5,2025-01-15 23:10:54,Indonesian,"['Spicy', 'Gluten-Free']",5.74,Wednesday
+CUST1007,REST8,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,5,2025-01-16 09:26:34,Indonesian,"['Spicy', 'Gluten-Free']",0.37,Thursday
+CUST1037,REST10,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,1,2025-01-17 06:45:48,Indonesian,"['Spicy', 'Gluten-Free']",1.92,Friday
+CUST1035,REST10,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,4,2025-01-18 06:17:04,Middle Eastern,['Contains Gluten'],9.32,Saturday
+CUST1029,REST1,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,5,2025-01-18 16:47:56,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",0.12,Saturday
+CUST1020,REST5,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,4,2025-01-19 14:23:55,Middle Eastern,"['Vegan', 'Contains Gluten']",8.42,Sunday
+CUST1032,REST2,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,3,2025-01-20 06:10:47,Mediterranean,"['Vegetarian', 'Contains Dairy']",1.66,Monday
+CUST1004,REST1,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,1,2025-01-22 10:41:01,American,"['Contains Gluten', 'Contains Pork']",0.63,Wednesday
+CUST1040,REST8,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",4,2025-01-22 19:49:48,Japanese,"['Contains Gluten', 'Contains Pork']",5.97,Wednesday
+CUST1004,REST7,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,5,2025-01-23 04:31:19,Middle Eastern,['Contains Gluten'],4.96,Thursday
+CUST1033,REST3,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",5,2025-01-23 14:20:55,Italian,"['Contains Gluten', 'Contains Dairy']",10.5,Thursday
+CUST1027,REST9,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",1,2025-01-23 22:32:16,Italian,"['Contains Gluten', 'Contains Dairy']",6.64,Thursday
+CUST1029,REST6,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,2,2025-01-24 02:48:13,Middle Eastern,"['Vegan', 'Contains Gluten']",8.13,Friday
+CUST1036,REST7,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,2,2025-01-24 19:48:06,Modern Australian,"['Seafood', 'Gluten-Free']",1.66,Friday
+CUST1022,REST3,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,1,2025-01-26 14:47:05,American,"['Contains Gluten', 'Contains Pork']",0.98,Sunday
+CUST1021,REST9,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,4,2025-01-26 16:16:22,Modern Australian,"['Seafood', 'Gluten-Free']",6.94,Sunday
+CUST1048,REST10,Duck à l’Orange,Roast duck with a tangy orange sauce,5,2025-01-26 19:25:51,French,['Contains Gluten'],8.22,Sunday
+CUST1049,REST5,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,5,2025-01-27 23:06:56,Modern Australian,"['Seafood', 'Gluten-Free']",23.29,Monday
+CUST1035,REST3,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,2,2025-01-28 00:07:09,Modern Australian,"['Seafood', 'Gluten-Free']",2.66,Tuesday
+CUST1034,REST9,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,4,2025-01-29 03:59:49,Indonesian,"['Spicy', 'Gluten-Free']",2.33,Wednesday
+CUST1045,REST4,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,1,2025-01-29 13:52:11,Middle Eastern,['Contains Gluten'],7.49,Wednesday
+CUST1006,REST1,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,4,2025-01-29 13:59:23,Middle Eastern,"['Vegan', 'Contains Gluten']",2.08,Wednesday
+CUST1022,REST4,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",5,2025-01-30 06:02:41,Mexican,"['Seafood', 'Contains Gluten']",13.35,Thursday
+CUST1044,REST10,Butter Chicken,Creamy tomato curry with grilled chicken,4,2025-01-31 01:47:38,Indian,"['Contains Dairy', 'Spicy']",9.77,Friday
+CUST1044,REST5,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,1,2025-02-01 05:23:20,Indonesian,"['Spicy', 'Gluten-Free']",2.8,Saturday
+CUST1021,REST7,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,4,2025-02-02 02:13:51,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",6.95,Sunday
+CUST1003,REST6,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,3,2025-02-03 07:28:39,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",7.02,Monday
+CUST1025,REST1,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",1,2025-02-03 07:33:26,Plant-based,"['Vegan', 'Gluten-Free']",0.54,Monday
+CUST1036,REST4,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",5,2025-02-04 15:34:57,Italian,"['Contains Gluten', 'Contains Dairy']",11.64,Tuesday
+CUST1019,REST7,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,4,2025-02-05 11:15:03,Korean,"['Spicy', 'Contains Gluten']",3.52,Wednesday
+CUST1015,REST4,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",1,2025-02-07 04:30:43,Japanese,"['Contains Gluten', 'Contains Pork']",8.76,Friday
+CUST1020,REST4,Duck à l’Orange,Roast duck with a tangy orange sauce,3,2025-02-07 10:45:04,French,['Contains Gluten'],1.93,Friday
+CUST1020,REST8,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,1,2025-02-07 16:46:12,Indonesian,"['Spicy', 'Gluten-Free']",11.29,Friday
+CUST1041,REST7,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",4,2025-02-08 12:44:27,Japanese,"['Contains Gluten', 'Contains Pork']",2.46,Saturday
+CUST1029,REST2,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,5,2025-02-08 22:36:28,Mediterranean,"['Vegetarian', 'Contains Dairy']",0.05,Saturday
+CUST1039,REST1,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",2,2025-02-09 01:15:03,Mexican,"['Seafood', 'Contains Gluten']",11.79,Sunday
+CUST1043,REST6,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,1,2025-02-09 09:16:04,Middle Eastern,['Contains Gluten'],0.48,Sunday
+CUST1006,REST10,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,2,2025-02-09 10:57:09,Mediterranean,"['Vegetarian', 'Contains Dairy']",1.92,Sunday
+CUST1039,REST9,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",5,2025-02-10 11:24:00,Plant-based,"['Vegan', 'Gluten-Free']",14.98,Monday
+CUST1043,REST4,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",3,2025-02-10 22:17:01,Mexican,"['Seafood', 'Contains Gluten']",15.04,Monday
+CUST1006,REST6,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",2,2025-02-12 01:36:34,Japanese,"['Contains Gluten', 'Contains Pork']",4.26,Wednesday
+CUST1004,REST3,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",3,2025-02-12 04:19:46,Italian,"['Contains Gluten', 'Contains Dairy']",5.0,Wednesday
+CUST1015,REST5,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,2,2025-02-12 04:45:30,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",2.98,Wednesday
+CUST1047,REST7,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",1,2025-02-13 04:43:24,Mexican,"['Seafood', 'Contains Gluten']",1.74,Thursday
+CUST1022,REST9,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,5,2025-02-13 05:09:52,Modern Australian,"['Seafood', 'Gluten-Free']",1.99,Thursday
+CUST1041,REST7,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",2,2025-02-14 03:40:06,Mexican,"['Seafood', 'Contains Gluten']",5.58,Friday
+CUST1048,REST5,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,4,2025-02-14 10:08:53,American,"['Contains Gluten', 'Contains Pork']",6.98,Friday
+CUST1050,REST8,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",2,2025-02-15 21:47:11,Plant-based,"['Vegan', 'Gluten-Free']",7.84,Saturday
+CUST1023,REST10,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,1,2025-02-15 22:38:26,Mediterranean,"['Vegetarian', 'Contains Dairy']",7.79,Saturday
+CUST1039,REST5,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",1,2025-02-16 07:05:14,Japanese,"['Contains Gluten', 'Contains Pork']",0.48,Sunday
+CUST1048,REST2,Duck à l’Orange,Roast duck with a tangy orange sauce,2,2025-02-16 10:53:14,French,['Contains Gluten'],3.41,Sunday
+CUST1000,REST2,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,3,2025-02-17 08:36:01,Indonesian,"['Spicy', 'Gluten-Free']",0.3,Monday
+CUST1023,REST5,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,4,2025-02-18 02:54:55,Modern Australian,"['Seafood', 'Gluten-Free']",3.99,Tuesday
+CUST1041,REST8,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,4,2025-02-18 17:23:53,Modern Australian,"['Seafood', 'Gluten-Free']",2.91,Tuesday
+CUST1029,REST7,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,5,2025-02-20 08:16:36,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",10.93,Thursday
+CUST1043,REST10,Duck à l’Orange,Roast duck with a tangy orange sauce,4,2025-02-21 15:34:39,French,['Contains Gluten'],2.16,Friday
+CUST1016,REST2,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,1,2025-02-21 18:13:08,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",0.62,Friday
+CUST1043,REST4,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,5,2025-02-22 16:38:01,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",0.77,Saturday
+CUST1042,REST2,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,4,2025-02-23 01:44:42,Mediterranean,"['Vegetarian', 'Contains Dairy']",7.17,Sunday
+CUST1043,REST7,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,3,2025-02-28 02:22:20,Middle Eastern,"['Vegan', 'Contains Gluten']",4.81,Friday
+CUST1031,REST7,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,2,2025-02-28 11:53:30,American,"['Contains Gluten', 'Contains Pork']",0.53,Friday
+CUST1007,REST7,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,5,2025-02-28 23:49:40,Indonesian,"['Spicy', 'Gluten-Free']",0.44,Friday
+CUST1035,REST9,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,3,2025-03-01 02:24:38,Middle Eastern,"['Vegan', 'Contains Gluten']",6.04,Saturday
+CUST1017,REST3,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,1,2025-03-02 02:42:59,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",0.38,Sunday
+CUST1046,REST8,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,5,2025-03-02 14:30:50,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",8.63,Sunday
+CUST1029,REST5,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,4,2025-03-03 13:26:54,Indonesian,"['Spicy', 'Gluten-Free']",6.12,Monday
+CUST1038,REST6,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,2,2025-03-03 23:20:29,American,"['Contains Gluten', 'Contains Pork']",0.42,Monday
+CUST1023,REST5,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,1,2025-03-05 14:13:23,American,"['Contains Gluten', 'Contains Pork']",0.44,Wednesday
+CUST1015,REST7,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,5,2025-03-05 17:10:22,Middle Eastern,['Contains Gluten'],21.58,Wednesday
+CUST1030,REST6,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",3,2025-03-06 00:56:24,Plant-based,"['Vegan', 'Gluten-Free']",2.34,Thursday
+CUST1002,REST1,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,4,2025-03-06 02:33:54,Middle Eastern,"['Vegan', 'Contains Gluten']",2.32,Thursday
+CUST1048,REST4,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,4,2025-03-06 05:22:19,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",8.38,Thursday
+CUST1035,REST9,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,4,2025-03-06 08:34:19,Middle Eastern,['Contains Gluten'],14.71,Thursday
+CUST1004,REST10,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,1,2025-03-06 12:58:10,American,"['Contains Gluten', 'Contains Pork']",21.34,Thursday
+CUST1016,REST4,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",2,2025-03-07 01:26:51,Mexican,"['Seafood', 'Contains Gluten']",7.0,Friday
+CUST1000,REST3,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",5,2025-03-07 20:34:55,Japanese,"['Contains Gluten', 'Contains Pork']",2.36,Friday
+CUST1013,REST6,Pulled Pork Burger,Slow-cooked pork with BBQ sauce in a brioche bun,3,2025-03-07 23:02:00,American,"['Contains Gluten', 'Contains Pork']",0.44,Friday
+CUST1020,REST2,Butter Chicken,Creamy tomato curry with grilled chicken,2,2025-03-08 07:43:48,Indian,"['Contains Dairy', 'Spicy']",7.51,Saturday
+CUST1045,REST2,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,5,2025-03-09 23:14:43,Middle Eastern,"['Vegan', 'Contains Gluten']",4.09,Sunday
+CUST1007,REST1,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",1,2025-03-10 21:08:34,Japanese,"['Contains Gluten', 'Contains Pork']",2.76,Monday
+CUST1023,REST7,Miso Ramen,"Noodles in miso broth with pork, egg, and scallions",2,2025-03-10 23:28:45,Japanese,"['Contains Gluten', 'Contains Pork']",11.84,Monday
+CUST1028,REST10,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,1,2025-03-10 23:35:13,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",0.59,Monday
+CUST1040,REST9,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,2,2025-03-11 06:23:38,Mediterranean,"['Vegetarian', 'Contains Dairy']",3.39,Tuesday
+CUST1038,REST7,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,5,2025-03-11 22:18:00,Mediterranean,"['Vegetarian', 'Contains Dairy']",0.06,Tuesday
+CUST1001,REST8,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,2,2025-03-12 22:27:00,Korean,"['Spicy', 'Contains Gluten']",3.16,Wednesday
+CUST1016,REST10,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,4,2025-03-13 01:25:07,Mediterranean,"['Vegetarian', 'Contains Dairy']",0.29,Thursday
+CUST1019,REST9,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,5,2025-03-13 07:09:19,Indonesian,"['Spicy', 'Gluten-Free']",0.63,Thursday
+CUST1049,REST8,Duck à l’Orange,Roast duck with a tangy orange sauce,5,2025-03-13 13:33:33,French,['Contains Gluten'],0.63,Thursday
+CUST1046,REST3,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",2,2025-03-13 22:53:03,Plant-based,"['Vegan', 'Gluten-Free']",5.24,Thursday
+CUST1044,REST5,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,2,2025-03-14 20:46:04,Middle Eastern,['Contains Gluten'],6.85,Friday
+CUST1037,REST7,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,5,2025-03-15 06:09:14,Middle Eastern,"['Vegan', 'Contains Gluten']",4.38,Saturday
+CUST1014,REST10,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",5,2025-03-15 10:30:21,Italian,"['Contains Gluten', 'Contains Dairy']",16.37,Saturday
+CUST1011,REST7,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,2,2025-03-15 19:32:30,Indonesian,"['Spicy', 'Gluten-Free']",2.35,Saturday
+CUST1026,REST7,Butter Chicken,Creamy tomato curry with grilled chicken,5,2025-03-15 22:10:14,Indian,"['Contains Dairy', 'Spicy']",1.68,Saturday
+CUST1037,REST9,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",4,2025-03-16 02:59:35,Italian,"['Contains Gluten', 'Contains Dairy']",10.15,Sunday
+CUST1007,REST8,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,2,2025-03-16 21:33:33,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",1.27,Sunday
+CUST1027,REST9,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,2,2025-03-17 02:43:03,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",16.51,Monday
+CUST1021,REST5,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,5,2025-03-17 22:34:53,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",0.06,Monday
+CUST1048,REST5,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,3,2025-03-18 03:05:51,Middle Eastern,"['Vegan', 'Contains Gluten']",17.51,Tuesday
+CUST1014,REST6,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",2,2025-03-18 03:41:48,Italian,"['Contains Gluten', 'Contains Dairy']",0.22,Tuesday
+CUST1035,REST7,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,1,2025-03-19 06:19:36,Indonesian,"['Spicy', 'Gluten-Free']",11.09,Wednesday
+CUST1039,REST9,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,4,2025-03-19 14:32:49,Indonesian,"['Spicy', 'Gluten-Free']",3.75,Wednesday
+CUST1007,REST8,Falafel Wrap,Crispy chickpea balls with tahini in pita bread,4,2025-03-19 23:30:33,Middle Eastern,"['Vegan', 'Contains Gluten']",24.78,Wednesday
+CUST1049,REST1,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,3,2025-03-20 13:27:53,Korean,"['Spicy', 'Contains Gluten']",0.38,Thursday
+CUST1032,REST2,Pan-Seared Salmon,Crispy-skinned salmon with asparagus and lemon,5,2025-03-21 11:03:04,Modern Australian,"['Seafood', 'Gluten-Free']",4.04,Friday
+CUST1002,REST7,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,2,2025-03-23 02:56:47,Middle Eastern,['Contains Gluten'],17.42,Sunday
+CUST1005,REST7,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,1,2025-03-24 02:27:03,Middle Eastern,['Contains Gluten'],3.7,Monday
+CUST1037,REST9,Spaghetti Carbonara,"Pasta with pancetta, egg yolk, pecorino cheese",3,2025-03-24 04:38:01,Italian,"['Contains Gluten', 'Contains Dairy']",4.96,Monday
+CUST1028,REST3,Duck à l’Orange,Roast duck with a tangy orange sauce,1,2025-03-24 21:49:36,French,['Contains Gluten'],5.95,Monday
+CUST1016,REST4,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,5,2025-03-24 21:54:11,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",3.03,Monday
+CUST1019,REST2,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,3,2025-03-26 14:48:25,Indonesian,"['Spicy', 'Gluten-Free']",4.94,Wednesday
+CUST1029,REST2,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,5,2025-03-27 08:34:56,Korean,"['Spicy', 'Contains Gluten']",4.39,Thursday
+CUST1022,REST9,Lamb Shawarma,Marinated lamb slices with garlic sauce in flatbread,1,2025-03-29 10:29:14,Middle Eastern,['Contains Gluten'],11.57,Saturday
+CUST1042,REST6,Duck à l’Orange,Roast duck with a tangy orange sauce,5,2025-03-29 14:41:39,French,['Contains Gluten'],0.23,Saturday
+CUST1044,REST5,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",5,2025-03-29 19:05:10,Mexican,"['Seafood', 'Contains Gluten']",1.65,Saturday
+CUST1038,REST10,Prawn Tacos,"Soft shell tacos with grilled prawns, avocado, and salsa",2,2025-03-29 23:03:34,Mexican,"['Seafood', 'Contains Gluten']",15.02,Saturday
+CUST1013,REST4,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,2,2025-03-29 23:05:44,Korean,"['Spicy', 'Contains Gluten']",11.05,Saturday
+CUST1017,REST5,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,3,2025-03-30 01:00:32,Korean,"['Spicy', 'Contains Gluten']",3.04,Sunday
+CUST1040,REST5,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,5,2025-03-30 09:29:42,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",4.84,Sunday
+CUST1025,REST5,Grilled Halloumi,Char-grilled halloumi with lemon and herbs,1,2025-03-31 00:52:48,Mediterranean,"['Vegetarian', 'Contains Dairy']",1.62,Monday
+CUST1031,REST8,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,1,2025-04-01 03:53:52,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",1.04,Tuesday
+CUST1028,REST1,Tom Yum Goong,Hot and sour Thai soup with prawns and lemongrass,3,2025-04-01 08:07:12,Thai,"['Spicy', 'Seafood', 'Gluten-Free']",3.12,Tuesday
+CUST1029,REST9,Pumpkin Risotto,Creamy risotto with roasted pumpkin and parmesan,5,2025-04-02 07:56:14,Italian,"['Vegetarian', 'Contains Dairy', 'Gluten-Free']",2.18,Wednesday
+CUST1034,REST3,Eggplant Parmigiana,Baked eggplant with tomato sauce and mozzarella,2,2025-04-04 03:24:17,Italian,"['Vegetarian', 'Contains Dairy', 'Contains Gluten']",4.38,Friday
+CUST1023,REST7,Korean Fried Chicken,Double-fried chicken with spicy gochujang glaze,3,2025-04-04 22:52:02,Korean,"['Spicy', 'Contains Gluten']",0.4,Friday
+CUST1023,REST4,Beef Rendang,Slow-cooked spicy beef curry with coconut milk,3,2025-04-05 23:07:54,Indonesian,"['Spicy', 'Gluten-Free']",18.32,Saturday
+CUST1047,REST2,Vegan Buddha Bowl,"Quinoa, chickpeas, roasted veggies and hummus",1,2025-04-06 10:36:06,Plant-based,"['Vegan', 'Gluten-Free']",21.42,Sunday

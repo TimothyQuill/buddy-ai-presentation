@@ -1,0 +1,6 @@
+openai~=0.27.0
+pandas~=1.2.5
+utils~=1.0.1
+numpy~=1.21.6
+chromadb~=0.5.23
+typing~=3.7.4.3

@@ -1,0 +1,101 @@
+customer_id,restaurant_id,dish_name,dish_description,cuisine_type,dietary_tags,rating,tip_amount,timestamp,day_of_week
+CUST1036,REST2,Jackfruit Tacos,Vegan tacos with pulled jackfruit and avocado salsa,Vegan Fusion,"['Vegan', 'Gluten-Free']",1,5.51,2025-04-07 11:19:01,Sunday
+CUST1019,REST4,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",3,4.01,2025-04-07 11:19:02,Saturday
+CUST1038,REST9,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",4,1.6,2025-04-07 11:19:03,Friday
+CUST1035,REST5,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",1,17.52,2025-04-07 11:19:03,Monday
+CUST1039,REST4,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",2,0.75,2025-04-07 11:19:05,Monday
+CUST1003,REST2,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",4,0.07,2025-04-07 11:19:07,Wednesday
+CUST1015,REST1,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",3,1.99,2025-04-07 11:19:12,Tuesday
+CUST1006,REST6,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",2,8.64,2025-04-07 11:19:15,Sunday
+CUST1044,REST2,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",2,1.3,2025-04-07 11:19:17,Wednesday
+CUST1022,REST1,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",1,2.36,2025-04-07 11:19:21,Friday
+CUST1024,REST7,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",3,0.72,2025-04-07 11:19:22,Saturday
+CUST1016,REST6,Jackfruit Tacos,Vegan tacos with pulled jackfruit and avocado salsa,Vegan Fusion,"['Vegan', 'Gluten-Free']",2,0.39,2025-04-07 11:19:27,Wednesday
+CUST1012,REST4,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",3,9.56,2025-04-07 11:19:30,Wednesday
+CUST1048,REST5,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",3,2.88,2025-04-07 11:19:31,Monday
+CUST1029,REST9,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",5,9.92,2025-04-07 11:19:34,Thursday
+CUST1029,REST3,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",5,8.38,2025-04-07 11:19:37,Saturday
+CUST1041,REST1,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",1,11.73,2025-04-07 11:19:39,Monday
+CUST1003,REST9,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",2,0.73,2025-04-07 11:19:46,Tuesday
+CUST1010,REST7,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",5,28.47,2025-04-07 11:19:46,Tuesday
+CUST1016,REST10,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",5,2.99,2025-04-07 11:19:49,Friday
+CUST1045,REST8,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",1,2.16,2025-04-07 11:19:49,Saturday
+CUST1042,REST2,Jackfruit Tacos,Vegan tacos with pulled jackfruit and avocado salsa,Vegan Fusion,"['Vegan', 'Gluten-Free']",4,0.69,2025-04-07 11:19:50,Wednesday
+CUST1015,REST8,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",3,5.02,2025-04-07 11:19:52,Friday
+CUST1040,REST7,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",4,3.07,2025-04-07 11:19:52,Thursday
+CUST1002,REST1,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",1,0.29,2025-04-07 11:19:54,Tuesday
+CUST1010,REST9,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",5,15.4,2025-04-07 11:19:56,Thursday
+CUST1046,REST1,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",5,0.69,2025-04-07 11:19:56,Tuesday
+CUST1010,REST7,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",5,0.69,2025-04-07 11:20:00,Sunday
+CUST1035,REST6,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",2,2.68,2025-04-07 11:20:00,Sunday
+CUST1043,REST5,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",5,3.67,2025-04-07 11:20:02,Monday
+CUST1022,REST8,Jackfruit Tacos,Vegan tacos with pulled jackfruit and avocado salsa,Vegan Fusion,"['Vegan', 'Gluten-Free']",3,7.04,2025-04-07 11:20:02,Tuesday
+CUST1013,REST4,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",5,4.84,2025-04-07 11:20:03,Tuesday
+CUST1000,REST6,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",3,3.39,2025-04-07 11:20:06,Wednesday
+CUST1019,REST10,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",5,1.37,2025-04-07 11:20:10,Saturday
+CUST1009,REST2,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",1,6.47,2025-04-07 11:20:10,Wednesday
+CUST1046,REST8,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",3,13.06,2025-04-07 11:20:13,Saturday
+CUST1028,REST7,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",4,8.4,2025-04-07 11:20:13,Tuesday
+CUST1043,REST4,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",2,1.49,2025-04-07 11:20:14,Tuesday
+CUST1034,REST1,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",1,21.82,2025-04-07 11:20:14,Tuesday
+CUST1020,REST2,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",4,19.57,2025-04-07 11:20:14,Monday
+CUST1032,REST8,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",5,9.23,2025-04-07 11:20:15,Tuesday
+CUST1001,REST2,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",4,0.23,2025-04-07 11:20:17,Friday
+CUST1026,REST4,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",4,4.81,2025-04-07 11:20:20,Sunday
+CUST1039,REST10,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",1,9.11,2025-04-07 11:20:21,Friday
+CUST1029,REST8,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",3,10.05,2025-04-07 11:20:26,Wednesday
+CUST1030,REST6,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",5,10.46,2025-04-07 11:20:31,Friday
+CUST1007,REST5,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",4,14.96,2025-04-07 11:20:32,Tuesday
+CUST1043,REST10,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",1,11.35,2025-04-07 11:20:33,Monday
+CUST1038,REST2,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",3,4.87,2025-04-07 11:20:33,Monday
+CUST1035,REST6,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",4,5.57,2025-04-07 11:20:36,Sunday
+CUST1030,REST4,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",4,3.84,2025-04-07 11:20:36,Wednesday
+CUST1036,REST9,Jackfruit Tacos,Vegan tacos with pulled jackfruit and avocado salsa,Vegan Fusion,"['Vegan', 'Gluten-Free']",2,2.4,2025-04-07 11:20:36,Friday
+CUST1011,REST3,Jackfruit Tacos,Vegan tacos with pulled jackfruit and avocado salsa,Vegan Fusion,"['Vegan', 'Gluten-Free']",4,3.39,2025-04-07 11:20:38,Tuesday
+CUST1008,REST6,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",5,40.86,2025-04-07 11:20:40,Friday
+CUST1029,REST4,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",2,0.13,2025-04-07 11:20:40,Saturday
+CUST1008,REST5,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",3,0.82,2025-04-07 11:20:42,Thursday
+CUST1030,REST1,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",3,14.48,2025-04-07 11:20:42,Sunday
+CUST1002,REST1,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",3,2.53,2025-04-07 11:20:45,Tuesday
+CUST1044,REST2,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",3,0.82,2025-04-07 11:20:45,Sunday
+CUST1049,REST10,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",4,2.22,2025-04-07 11:20:45,Friday
+CUST1031,REST9,Jackfruit Tacos,Vegan tacos with pulled jackfruit and avocado salsa,Vegan Fusion,"['Vegan', 'Gluten-Free']",3,5.99,2025-04-07 11:20:46,Thursday
+CUST1019,REST1,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",5,1.42,2025-04-07 11:20:46,Tuesday
+CUST1028,REST6,Jackfruit Tacos,Vegan tacos with pulled jackfruit and avocado salsa,Vegan Fusion,"['Vegan', 'Gluten-Free']",4,5.57,2025-04-07 11:20:46,Wednesday
+CUST1048,REST9,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",2,2.12,2025-04-07 11:20:47,Thursday
+CUST1008,REST6,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",5,12.09,2025-04-07 11:20:50,Saturday
+CUST1020,REST6,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",3,0.89,2025-04-07 11:20:53,Saturday
+CUST1037,REST6,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",5,4.05,2025-04-07 11:21:00,Thursday
+CUST1043,REST2,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",4,9.47,2025-04-07 11:21:02,Sunday
+CUST1028,REST2,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",2,0.21,2025-04-07 11:21:04,Wednesday
+CUST1024,REST6,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",2,3.67,2025-04-07 11:21:04,Monday
+CUST1031,REST10,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",4,8.32,2025-04-07 11:21:06,Saturday
+CUST1045,REST6,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",4,10.0,2025-04-07 11:21:08,Monday
+CUST1029,REST2,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",1,1.85,2025-04-07 11:21:10,Saturday
+CUST1013,REST6,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",5,5.77,2025-04-07 11:21:11,Wednesday
+CUST1041,REST8,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",4,2.49,2025-04-07 11:21:12,Saturday
+CUST1018,REST2,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",5,2.58,2025-04-07 11:21:12,Friday
+CUST1028,REST9,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",3,3.21,2025-04-07 11:21:17,Tuesday
+CUST1032,REST4,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",5,0.95,2025-04-07 11:21:18,Tuesday
+CUST1039,REST10,Jackfruit Tacos,Vegan tacos with pulled jackfruit and avocado salsa,Vegan Fusion,"['Vegan', 'Gluten-Free']",2,1.2,2025-04-07 11:21:21,Sunday
+CUST1026,REST3,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",1,3.61,2025-04-07 11:21:21,Sunday
+CUST1024,REST10,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",4,4.75,2025-04-07 11:21:22,Saturday
+CUST1018,REST1,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",3,0.15,2025-04-07 11:21:24,Wednesday
+CUST1023,REST1,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",4,4.51,2025-04-07 11:21:25,Friday
+CUST1009,REST3,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",3,1.07,2025-04-07 11:21:25,Saturday
+CUST1012,REST3,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",4,13.5,2025-04-07 11:21:25,Sunday
+CUST1045,REST4,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",4,4.12,2025-04-07 11:21:27,Tuesday
+CUST1008,REST9,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",4,14.93,2025-04-07 11:21:29,Thursday
+CUST1050,REST8,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",2,7.65,2025-04-07 11:21:29,Saturday
+CUST1035,REST5,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",2,6.09,2025-04-07 11:21:31,Tuesday
+CUST1045,REST3,Jackfruit Tacos,Vegan tacos with pulled jackfruit and avocado salsa,Vegan Fusion,"['Vegan', 'Gluten-Free']",5,0.6,2025-04-07 11:21:32,Monday
+CUST1012,REST2,Yuzu Ceviche,Fresh fish cured in yuzu juice with radish and coriander,Japanese-Peruvian,"['Seafood', 'Gluten-Free']",3,0.8,2025-04-07 11:21:33,Thursday
+CUST1034,REST6,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",5,7.4,2025-04-07 11:21:33,Friday
+CUST1006,REST7,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",3,3.16,2025-04-07 11:21:35,Thursday
+CUST1030,REST3,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",4,5.12,2025-04-07 11:21:37,Friday
+CUST1009,REST4,Tempeh Satay,Grilled tempeh skewers with spicy peanut sauce,Indonesian,"['Vegan', 'Spicy', 'Gluten-Free']",1,4.66,2025-04-07 11:21:42,Thursday
+CUST1010,REST6,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",5,2.71,2025-04-07 11:21:51,Wednesday
+CUST1000,REST9,Truffle Cauliflower Steak,Roasted cauliflower steak with truffle oil and tahini drizzle,Modern Australian,"['Vegan', 'Gluten-Free']",2,4.46,2025-04-07 11:21:51,Tuesday
+CUST1014,REST9,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",1,2.14,2025-04-07 11:21:53,Monday
+CUST1034,REST8,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",5,7.33,2025-04-07 11:21:57,Sunday
+CUST1023,REST7,Labneh Flatbread,"Crispy flatbread topped with labneh, za'atar and herbs",Middle Eastern,"['Vegetarian', 'Contains Gluten']",5,1.0,2025-04-07 11:21:59,Wednesday
