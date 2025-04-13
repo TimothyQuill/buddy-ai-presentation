@@ -1,12 +1,11 @@
 import chromadb
-from chromadb.config import Settings
 from typing import List, Any, Dict
-
 
 class ChromaDBManager:
     """
     A simple class to manage a Chroma database collection.
-    Allows adding documents/embeddings and querying for similar embeddings.
+    Allows adding documents/embeddings, querying for similar embeddings,
+    and filtering documents by metadata.
     """
 
     def __init__(self, collection_name: str = "my_collection", persist_directory: str = ".chroma_db"):
@@ -19,14 +18,8 @@ class ChromaDBManager:
             persist_directory (str, optional): The directory where Chroma data will be stored.
                 Defaults to ".chroma_db".
         """
-        # Create a Chroma client with optional persistence
-        self.client = chromadb.Client(
-            Settings(
-                chroma_db_impl="duckdb+parquet",
-                persist_directory=persist_directory
-            )
-        )
-        # Create or retrieve the specified collection
+        # Create or open a persistent Chroma database at the given path:
+        self.client = chromadb.PersistentClient(path=persist_directory)
         self.collection = self.client.get_or_create_collection(name=collection_name)
 
     def add_embeddings(
@@ -40,11 +33,11 @@ class ChromaDBManager:
         Adds documents, embeddings, and optional metadata to the Chroma collection.
 
         Args:
-            ids (List[str]): Unique IDs for each embedding/document.
-            documents (List[str]): The textual data corresponding to each embedding.
-            embeddings (List[List[float]]): A list of embeddings, one per document.
-            metadatas (List[Dict[str, Any]], optional): Metadata for each document
-                (e.g., source, tags). Defaults to None.
+            ids (List[str]): Unique IDs for each document.
+            documents (List[str]): Textual content for each document.
+            embeddings (List[List[float]]): Embedding vectors, one per document.
+            metadatas (List[Dict[str, Any]], optional): Arbitrary metadata for each document.
+                Defaults to an empty dictionary if None is provided.
         """
         if metadatas is None:
             metadatas = [{} for _ in documents]
@@ -61,8 +54,8 @@ class ChromaDBManager:
         Finds the k closest embeddings in the collection to the given query embedding.
 
         Args:
-            query_embedding (List[float]): The embedding vector to search for.
-            k (int, optional): The number of closest matches to retrieve. Defaults to 5.
+            query_embedding (List[float]): A single embedding vector to search.
+            k (int, optional): The number of nearest neighbors to retrieve. Defaults to 5.
 
         Returns:
             Dict: A dictionary containing `ids`, `embeddings`, `documents`, and `metadatas`.
@@ -73,9 +66,23 @@ class ChromaDBManager:
         )
         return results
 
+    def get_documents_by_metadata(self, key: str, value: Any) -> dict:
+        """
+        Retrieves documents whose metadata field `key` matches `value`,
+        including the embedding vectors in the result.
+        """
+        results = self.collection.get(
+            where={key: value},
+            include=["embeddings", "documents", "metadatas"]
+        )
+        return results
+
     def persist(self) -> None:
         """
-        Persists the data in the Chroma client to the specified directory (if any).
-        Call this if you want to ensure data is saved between sessions.
+        For PersistentClient, data is written to disk upon each update.
+        This method can be a no-op, or used for other finalizing logic.
         """
-        self.client.persist()
+        # If your client or environment requires an explicit persist,
+        # you can do that here. By default, PersistentClient
+        # automatically saves changes.
+        pass
